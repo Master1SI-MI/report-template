@@ -1,0 +1,121 @@
+/*table style*/
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:2px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:middle}
+.right{text-align:right !important;}
+.middle{
+    text-align:center !important;
+}
+.semestre{
+    padding: 15px !important;
+    position: relative;
+    /* writing-mode: tb-rl; */
+    /* transform: rotate(-180deg); */
+    text-align: center !important;
+}
+.span-semestre{
+    transform: rotate(270deg);
+    position: absolute;
+    left: -60px;
+    display: block;
+    width: 150px;
+}
+
+/*page style*/
+body{
+    background-color: #d9d5d599;
+    display: grid;
+    place-items: center;
+}
+.container{
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    /* width: 595px;
+    height: 842px; */
+    background-color: white;
+}
+.reportCard table{
+    width: 92%;
+}
+header{
+    padding: 0 1.5%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.ufhb-logo,.mi-logo{
+    display: grid;
+}
+.ufhb-logo img,.mi-logo img{
+
+    align-self: center;
+    width: 56px;
+    height: auto;
+    object-fit: cover;
+}
+.header-content p{
+    margin: 0px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-size: 11px;
+}
+.devider{
+    /* text-decoration: underline; */
+    width: 100%;
+}
+
+.title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+main{
+    padding-left: 5%;
+}
+.infoStudent{
+    margin-bottom: 25px;
+}
+.infoStudent p{
+    margin: 0;
+    margin-top: 5px;
+}
+.infoStudent span{
+    font-weight: 700;
+}
+.year,.ufr,.name{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+footer{
+    position: relative;
+    margin-top: 35px;
+    padding-left: 9%;
+    padding-bottom: 2%;
+    margin-right: 10%;
+}
+footer p{
+    margin: 0;
+}
+footer p:first-child{
+    margin-bottom: 20px;
+}
+footer span{
+    font-weight: 700;
+}
+.cache{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 150px;
+    height:auto;
+}
+.cache img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
